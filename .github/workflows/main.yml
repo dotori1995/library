@@ -69,6 +69,8 @@ jobs:
             # Install frontend dependencies
             npm install
 
+            npm i @tauri-apps/cli
+
             # Build the application
             npm run tauri build -- --verbose
 
